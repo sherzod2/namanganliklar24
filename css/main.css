@@ -1,0 +1,687 @@
+/* rubik-regular - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rubik-v14-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/rubik-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/rubik-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/rubik-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/rubik-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/rubik-v14-latin-regular.svg#Rubik') format('svg'); /* Legacy iOS */
+  }
+  /* rubik-500 - latin */
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/rubik-v14-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/rubik-v14-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/rubik-v14-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/rubik-v14-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/rubik-v14-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/rubik-v14-latin-500.svg#Rubik') format('svg'); /* Legacy iOS */
+  }
+  /* rubik-700 - latin */
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/rubik-v14-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/rubik-v14-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/rubik-v14-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/rubik-v14-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/rubik-v14-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/rubik-v14-latin-700.svg#Rubik') format('svg'); /* Legacy iOS */
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+}
+
+.container{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+img{
+    display: inline-block;
+}
+
+header{
+    padding: 0 0 25px;
+    background: #F6F6F9;
+    margin-bottom: 21px;
+}
+
+.herader-top-line{
+    background: #295093;
+    height: 4px;
+}
+
+.hero-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.hero-nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.hero-nav-right{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 33px;
+    height: 33px;
+    color: #295091;
+    width: 310px;
+    text-align: center;
+    margin: 0;
+    border: 1px solid rgb(173, 153, 153, 0.1);
+    background-color: #fff;
+
+}
+
+.hero-nav-list{
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.hero-nav-item{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: rgba(59, 52, 52, 0.678);
+}
+
+.hero-nav-item + .hero-nav-item{
+    margin-left: 15px;
+}
+
+.hero-nav-item a{
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 16px;
+    color: rgba(59, 52, 52, 0.678);
+    font-family: "Rubik", sans-serif;
+
+}
+
+button{
+    border: none;
+}
+
+.hero-nav-span{
+    color: #295091;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+}
+
+.language{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 65px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.hero-nav-button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 146px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #37AEE2;
+    text-decoration: none;
+}
+
+.hero-nav-button-p{
+    text-decoration: none;
+}
+
+.hero-nav-p, .hero-nav-button-p{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hero-nav-link-one{
+    line-height: 38px;
+    width: 40px;
+    height: 38px;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
+
+.hero-nav-link-two{
+    vertical-align: middle;
+}
+
+
+
+.hero-nav-button-logo{
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.hero-nav-button-p{
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* hero-page */
+
+.hero-page{
+
+    line-height: 68px;
+    border: 1px solid rgb(173, 153, 153, 0.1);
+    width: 1200px;
+    height: 68px;
+    background-color: #fff;
+}
+
+.hero-page-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    line-height: 68px;
+    border: 1px solid rgb(173, 153, 153, 0.1);
+    width: 1200px;
+    height: 68px;
+    background-color: #fff;
+    margin: 0 0 18px 0;
+    padding: 0;
+}
+
+.hero-page-list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    line-height: 68px;
+}
+.head-foto{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* herader yopildi to`liq */
+
+.main-hero{
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 21px;
+}
+
+.info-covid{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 133px;
+    width: 1200px;
+    background: #F6F6F9;
+}
+
+.covid{
+    display: flex;
+    align-items: center;
+    width: 310px;
+}
+
+.covid img{
+    margin-right: 25px;
+}
+
+.covid-p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.himoyalanish{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border-left: 2px solid #EB5569;
+}
+
+.himoyalanish img{
+    margin: 0 18px;
+}
+
+.himoyalanish-p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #DB0000;
+
+}
+
+.tuzalganlar{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border-left: 2px solid #F4CCD1;
+}
+
+.tuzalganlar img{
+    margin: 0 18px;
+}
+
+.tuzalganlar-p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #05B135;
+}
+
+.tabletka{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border-left: 2px solid #F4CCD1;
+}
+
+.tabletka img{
+    margin: 0 18px;
+}
+
+.tabletka-p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+}
+
+.info-covid-count{
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* hero main bo`limi yopildi */
+
+.problem{
+    margin-bottom: 33px;
+}
+
+.problem-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.problem-list li img{
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.problem-list li p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+
+.problem-list li .time{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B6D97;
+}
+
+/* problem bo`limi tugadi */
+
+.notifications{
+    margin-bottom: 37px;
+}
+
+.about-notification{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 33px;
+}
+
+.notifications-info{
+    display: flex;
+    align-items: center;
+}
+
+.notifications-info img{
+    margin-right: 16px;
+}
+
+.notifications-info p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.notifications-turn-on{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #FE5C28;
+    width: 264px;
+    height: 42px;
+}
+
+.notifications-turn-on p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* notifications bo`limi tugadi */
+
+.generel{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 35px;
+}
+
+.news-left h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0;
+}
+
+.news-left-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.news-left-list li{
+    display: flex;
+    margin-top: 18px;
+}
+
+.news-left-list li img{
+    margin-right: 20px;
+}
+
+.news-left-list li h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+    margin: 0;
+}
+
+.news-left-list li .news-left-p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343;
+    margin: 12px 0;
+}
+
+.news-left-list li .news-left-time{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+    margin: 0;
+}
+
+.new-left-button{
+    background: #295093;
+    border-radius: 5px;
+    width: 211px;
+    height: 42px;
+    margin: 0 auto;
+}
+
+.new-left-button p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.news-right-item h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+    margin: 0;
+}
+
+.news-right-list{
+    list-style: none;
+    margin: 0 0 19px;
+    padding: 20px;
+    width: 386px;
+    background: #F6F6F9;
+    border-radius: 5px;
+}
+
+.news-right-item .news-right-info{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+
+.news-right-item .news-right-time{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+}
+
+.news-right-line{
+    width: 346px;
+    height: 4px;
+    background: #E4E4E4;
+}
+
+/* news bo`limi tugadi */
+
+.download-app{
+    margin-bottom: 37px;
+}
+
+.namanganliklar-app{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    padding-top: 35px;
+    background: #F6F6F9;
+    border-radius: 5px;
+}
+
+.namanganliklar-app h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #295093;
+}
+
+.namanganliklar-app p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+/* download-app bo`limi tugadi */
+/* main bo`limi ham tugadi */
+
+footer{
+    height: 225px;
+    background: #295093;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.footer-top-left-buttom{
+    background: #133C82;
+    border-radius: 5px;
+    height: 38px;
+    width: 194px;
+    padding: 0 12px;
+}
+
+.footer-top-left-buttom a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 38px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+}
+
+.footer-top-p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.footer-top-right{
+    display: flex;
+    align-items: center;
+}
+
+.footer-top-right-buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 132px;
+    height: 38px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.footer-top-right-buttom a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
+    text-decoration: none;
+    margin: 0 0 0 6px;
+}
+
+.footer-line{
+    width: 1200px;
+    height: 3px;
+    background: #133C82;
+    margin-bottom: 12px;
+}
+
+/* footer top tugadi */
+
+.footer-bottom-list{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-bottom-item + .footer-bottom-item{
+    margin-left: 100px;
+}
+
+.footer-bottom-item p{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-bottom-span{
+    display: inline-block;
+    margin-bottom: 13px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
